@@ -22,7 +22,7 @@ export default function Navbar() {
             <img
               src="/Logo.png"
               alt="CA Senior Living Options"
-              className="h-16 md:h-18 w-auto"
+              className="h-20 w-auto"
             />
         
             <div className="flex flex-col">
