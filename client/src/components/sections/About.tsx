@@ -8,7 +8,7 @@ export default function About() {
           <div className="relative">
              <div className="aspect-[3/4] rounded-2xl overflow-hidden bg-primary/5 max-w-md mx-auto relative shadow-xl border-4 border-white">
                 <img 
-                  src="/attached_assets/Cami_Image_1767406136448.jpg" 
+                  src="/client/public/Cami_Image.png" 
                   alt="Camelia Ana Constantin" 
                   className="w-full h-full object-cover"
                 />
