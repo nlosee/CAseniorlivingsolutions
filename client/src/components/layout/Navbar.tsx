@@ -20,7 +20,7 @@ export default function Navbar() {
         <Link href="/">
           <a className="flex items-center gap-4">
             <img
-              src="/logo.png"
+              src="/Logo.png"
               alt="CA Senior Living Options"
               className="h-12 w-auto"
             />
