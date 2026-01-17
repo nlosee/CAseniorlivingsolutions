@@ -18,11 +18,24 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
         <Link href="/">
-          <a className="flex flex-col">
-            <span className="font-serif text-xl font-bold text-primary tracking-tight">Camelia Ana Constantin</span>
-            <span className="text-xs font-medium text-muted-foreground tracking-widest uppercase">Senior Placement Advisor</span>
+          <a className="flex items-center gap-4">
+            <img
+              src="/logo.png"
+              alt="CA Senior Living Options"
+              className="h-12 w-auto"
+            />
+        
+            <div className="flex flex-col">
+              <span className="font-serif text-xl font-bold text-primary tracking-tight">
+                Camelia Ana Constantin
+              </span>
+              <span className="text-xs font-medium text-muted-foreground tracking-widest uppercase">
+                Senior Placement Advisor
+              </span>
+            </div>
           </a>
         </Link>
+
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
